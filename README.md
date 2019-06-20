@@ -4,12 +4,12 @@ Simple password encoder tool based on Spring Security.
 ### Build and run
 ```bash
 mvn package
-java -jar target/password-encoder-0.1.jar ${passwd}
+java -jar target/password-encoder-0.2.jar ${passwd}
 ```
 
 ### Install in home directory
 ```bash
-cp target/password-encoder-0.1.jar ~/bin/password-encoder.jar
+cp target/password-encoder-0.2.jar ~/bin/password-encoder.jar
 ```
 
 Create a file `~/bin/password-encoder` with contents:
